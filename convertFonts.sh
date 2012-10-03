@@ -7,14 +7,14 @@
 
 # Linux and Mac users, this directory should be changed to be of this form:
 # BATIK_DIR="/Users/webtest/src/batik".  Windows should use the form below.
-BATIK_DIR='c:\Program Files\Batik\batik-1.7'
+# BATIK_DIR='c:\Program Files\Batik\batik-1.7'
 
 # The path should contain the directories where EOTFAST-1.EXE, ttf2eot,
 # fontforge, and all the scripts in the @Font-Face Contruction Set reside.
 # Uncomment the line below with the right directories.  Remember the 
 # $PATH at the beginning of the string, or the script will forget what
 # was originally in the PATH.
-PATH="$PATH:/home/haw5855/src/fontforge-mingw_2010_05_18"
+# PATH="$PATH:/home/haw5855/src/fontforge-mingw_2010_05_18"
 
 #########################################################################
 ## PROGRAM AREA                                                         #
@@ -126,13 +126,13 @@ then
 	fi
 fi
 	
-if [ ! -f "$BATIK_DIR/batik-ttf2svg.jar" ]
-then
-	echo "Error: Batik is not installed or BATIK_DIR is not set. " 1>&2
-	echo "Bailing." 1>&2
-
-	exit 3
-fi
+# if [ ! -f "$BATIK_DIR/batik-ttf2svg.jar" ]
+# then
+#	 echo "Error: Batik is not installed or BATIK_DIR is not set. " 1>&2
+# 	echo "Bailing." 1>&2
+#
+# 	exit 3
+# fi
 
 HAS_EOT_SUPPORT=1
 for i in EOTFAST-1 ttf2eot 
