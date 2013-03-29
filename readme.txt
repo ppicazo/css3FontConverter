@@ -29,7 +29,7 @@ Meerkat).  Please let us know if you find it works on others.
 REQUIREMENTS:
 -------------
 
-The shell script that uses FontForge, Batik (with Java installed), sfnt2woff
+The shell script that uses FontForge, sfnt2woff
 and either EOTFast or ttf2eot. Full instructions on how to install these
 packages are at:
 
